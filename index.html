@@ -9,6 +9,12 @@
     <link rel="stylesheet" href="./css/converter.css" />
   </head>
   <body>
+    <script>
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker.register("./serviceworker.js", { scope: "/" });
+      }
+    </script>
+
     <form id="converter">
       <label for="input-temp">temperature</label>
       <input type="text" id="input-temp" name="input-temp" value="20" />
