@@ -1,6 +1,6 @@
 const CACHE_NAME = `temperature-converter-v1`;
 var urlsToCache = [
-  "/index.html",
+  "/",
   "/manifest.json",
   "/css/style.css",
   "/serviceworker.js",
